@@ -1,0 +1,32 @@
+<div class="form">
+    <form [formGroup]="registerForm" (ngSubmit)="submit()">
+        
+        <div class="div1">
+            <label for="">Email:</label>
+            <input type="email"placeholder="email" name="email" formControlName="email">
+        </div>
+        
+        <div class="div2">
+            <label for="">Username:</label>
+            <input type="text" placeholder="username" name="username" formControlName="username">
+        </div>
+
+        <div class="div3">
+            <label for="">Full name:</label>
+            <input type="text" placeholder="name" name="name" formControlName="name">
+        </div>
+
+
+        <div class="div4">
+            <label for="">Password:</label>
+            <input type="password" placeholder="Enter your password" name="password" formControlName="password">
+        </div>
+
+        <div class="div5">
+            <label for="">Confirm-Password:</label>
+            <input type="password" placeholder="Confirm-Password" name="Confirm-Password" formControlName="confirmPassword">
+        </div>
+
+        <button type="submit" [disabled]="registerForm.invalid">Register</button>
+    </form>
+</div>

@@ -1,0 +1,30 @@
+.form{
+    width: 50%;
+    height: 20rem;
+    margin: auto;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 65, 87);
+    border-radius: 3rem;
+    color: white;
+   }
+   
+   .div1,.div2{
+       margin-top: 10%;
+   
+   }
+
+   a{
+    color: white;
+   }
+
+   a:hover{
+    color: blue;
+   }
+   
+   button{
+       border-radius: 1rem;
+       margin-top: 2px;
+       padding: 9px;
+   }

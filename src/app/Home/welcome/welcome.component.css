@@ -1,0 +1,45 @@
+.buttons {
+    display: flex;
+    margin-left: 2rem;
+    width: 40rem;
+    justify-content: flex-end;
+
+}
+
+.buttons button {
+    border-radius: 1rem;
+    padding: .5rem;
+    background-color: rgb(23, 65, 87);
+    color: white;
+    margin-left: 20px;
+}
+
+h1,
+h3,
+h4 {
+    margin-left: 2rem;
+    size: bold;
+}
+
+input {
+    border-radius: 2rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+    width: 15rem;
+}
+
+.images {
+    margin-top: 2rem;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
